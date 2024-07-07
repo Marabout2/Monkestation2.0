@@ -1110,7 +1110,7 @@
 		ACCESS_HOP,
 		)
 	job = /datum/job/space_explorer
-
+	
 /datum/id_trim/job/station_engineer
 	assignment = "Station Engineer"
 	trim_state = "trim_stationengineer"
