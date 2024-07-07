@@ -1,7 +1,7 @@
 /datum/job/space_explorer
 	title = JOB_SPACE_EXPLORER
 	description = "Like space ? Then it's time.\
-		Go out and recover key assets for the station."
+		 Go out and recover key assets for the station."
 	department_head = list(JOB_HEAD_OF_PERSONNEL)
 	faction = FACTION_STATION
 	total_positions = 4
@@ -69,10 +69,8 @@
 		ACCESS_SHIPPING,
 		)
 	extra_access = list(
-		ACCESS_BIT_DEN,
 		ACCESS_MINING,
 		ACCESS_MINING_STATION,
-		ACCESS_QM,
 		)
 	template_access = list(
 		ACCESS_CAPTAIN,
