@@ -79,4 +79,4 @@
 		ACCESS_CHANGE_IDS,
 		ACCESS_HOP,
 		)
-	job = /datum/job/space_explorer
+
