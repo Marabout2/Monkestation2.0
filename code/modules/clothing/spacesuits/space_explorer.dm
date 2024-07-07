@@ -35,7 +35,7 @@
 	strip_delay = 40
 	equip_delay_other = 20
 
-	/datum/armor/spess_armor
+/datum/armor/spess_armor
 	melee = 10
 	bullet = 25
 	laser = 15
