@@ -11,7 +11,7 @@
 	config_tag = "SPACE_EXPLORER"
 
 	outfit = /datum/outfit/job/spess_explorer
-	plasmaman_outfit = /datum/outfit/plasmaman/exploring
+	plasmaman_outfit = /datum/outfit/plasmaman/mining
 
 	paycheck = PAYCHECK_CREW
 	paycheck_department = ACCOUNT_CAR
@@ -54,3 +54,29 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag/explorer
 
 	box = /obj/item/storage/box/survival/mining
+
+/datum/id_trim/job/space_explorer
+	assignment = "Space Explorer"
+	trim_state = "trim_spaceexplorer"
+	department_color = COLOR_CARGO_BROWN
+	subdepartment_color = COLOR_CARGO_BROWN
+	sechud_icon_state = SECHUD_CARGO_TECHNICIAN
+	minimal_access = list(
+		ACCESS_CARGO,
+		ACCESS_MAINT_TUNNELS,
+		ACCESS_MECH_MINING,
+		ACCESS_MINERAL_STOREROOM,
+		ACCESS_SHIPPING,
+		)
+	extra_access = list(
+		ACCESS_BIT_DEN,
+		ACCESS_MINING,
+		ACCESS_MINING_STATION,
+		ACCESS_QM,
+		)
+	template_access = list(
+		ACCESS_CAPTAIN,
+		ACCESS_CHANGE_IDS,
+		ACCESS_HOP,
+		)
+	job = /datum/job/space_explorer
