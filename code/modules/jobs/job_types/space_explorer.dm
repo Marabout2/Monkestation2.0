@@ -38,7 +38,7 @@
 	jobtype = /datum/job/space_explorer
 
 
-	id_trim = /datum/id_trim/space_explorer
+	id_trim = /datum/id_trim/job/space_explorer
 	uniform = /obj/item/clothing/under/rank/cargo/miner/lavaland
 	backpack_contents = list(
 		/obj/item/flashlight/seclite =1,
@@ -79,4 +79,4 @@
 		ACCESS_CHANGE_IDS,
 		ACCESS_HOP,
 		)
-
+	job = /datum/job/space_explorer
