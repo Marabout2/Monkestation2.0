@@ -3,7 +3,7 @@
 	icon = 'icons/obj/clothing/head/spacehelm.dmi'
 	worn_icon = 'icons/mob/clothing/head/spacehelm.dmi'
 	icon_state = "spaceexplo"
-	inhand_icon_state = "space_helmet"
+	inhand_icon_state = "space_helmets"
 	desc = "A special helmet with solar UV shielding to protect your eyes from harmful rays."
 	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL | SNUG_FIT | PLASMAMAN_HELMET_EXEMPT | HEADINTERNALS
 	armor_type = /datum/armor/spaceexplo
@@ -28,7 +28,7 @@
 /obj/item/clothing/suit/space/spaceexplorer
 	name = "Explorers' EVA Suit"
 	desc = "A modified suit made for space explorers, manufactured with better and more durable materials while still allowing decent mobility."
-	icon_state = "spaceexplorer"
+	icon_state = "spaceexplora"
 	worn_icon = 'icons/mob/clothing/suits/spacesuit.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
 	slowdown = 0
