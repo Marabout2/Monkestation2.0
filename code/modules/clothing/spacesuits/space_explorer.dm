@@ -4,7 +4,7 @@
 	worn_icon = 'icons/mob/clothing/head/spacehelm.dmi'
 	icon_state = "spaceexplo"
 	inhand_icon_state = "space_helmets"
-	desc = "A special helmet with solar UV shielding to protect your eyes from harmful rays."
+	desc = "A special helmet with solar UV shielding to protect your eyes from harmful rays. Come with eyes protection for welders."
 	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL | SNUG_FIT | PLASMAMAN_HELMET_EXEMPT | HEADINTERNALS
 	armor_type = /datum/armor/spaceexplo
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
