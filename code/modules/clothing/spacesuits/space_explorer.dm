@@ -28,6 +28,7 @@
 /obj/item/clothing/suit/space/spaceexplorer
 	name = "Explorers' EVA Suit"
 	desc = "A modified suit made for space explorers, manufactured with better and more durable materials while still allowing decent mobility."
+	icon= "icons/obj/clothing/suits/spacesuit.dmi"
 	icon_state = "spaceexplora"
 	worn_icon = 'icons/mob/clothing/suits/spacesuit.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
