@@ -1567,8 +1567,6 @@
 		return FALSE
 	if(anchored)
 		return FALSE
-	if(notransform)
-		return FALSE
 	if(HAS_TRAIT(src, TRAIT_RESTRAINED))
 		return FALSE
 	return TRUE
