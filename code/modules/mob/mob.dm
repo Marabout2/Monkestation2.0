@@ -1559,6 +1559,7 @@
 	..()
 	SEND_SIGNAL(src, COMSIG_MOB_KEYDOWN, key, client, full_key)
 
+#define MOB_FACE_DIRECTION_DELAY 1
 
 /mob/proc/canface()
 	if(world.time < client.last_turn)
