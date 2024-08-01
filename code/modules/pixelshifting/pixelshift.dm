@@ -65,5 +65,6 @@
 		return TRUE
 	return ..()
 
+
 #undef MAXIMUM_PIXEL_SHIFT
 #undef PASSABLE_SHIFT_THRESHOLD
