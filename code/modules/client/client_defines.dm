@@ -274,3 +274,6 @@
 
 	/// used for rewarding players monkecoins at round end
 	var/reward_this_person = 0
+
+	///last turn of the controlled mob
+	var/last_turn = 0
