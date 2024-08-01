@@ -1558,3 +1558,26 @@
 /mob/key_down(key, client/client, full_key)
 	..()
 	SEND_SIGNAL(src, COMSIG_MOB_KEYDOWN, key, client, full_key)
+
+
+/mob/proc/canface()
+	if(world.time < client.last_turn)
+		return FALSE
+	if(stat >= UNCONSCIOUS)
+		return FALSE
+	if(anchored)
+		return FALSE
+	if(notransform)
+		return FALSE
+	if(HAS_TRAIT(src, TRAIT_RESTRAINED))
+		return FALSE
+	return TRUE
+
+///Checks mobility move as well as parent checks
+/mob/living/canface()
+	if(!(mobility_flags & MOBILITY_MOVE))
+		return FALSE
+	return ..()
+
+/mob/dead/observer/canface()
+	return TRUE
