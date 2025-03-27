@@ -167,3 +167,12 @@
 /obj/item/organ/external/tail/lizard/fake
 	name = "fabricated lizard tail"
 	desc = "A fabricated severed lizard tail. This one's made of synthflesh. Probably not usable for lizard wine."
+
+/// Monkestation addition : Calicos
+
+/obj/item/organ/external/tail/calico_tail
+
+	name = "calico tail"
+	desc = "A calico's tail, neat."
+
+	bodypart_overlay = /datum/bodypart_overlay/mutant/tail/cat
